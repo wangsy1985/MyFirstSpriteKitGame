@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "+[SKScene(Unarchive) unarchiveFromFile:]:GameViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "scene.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UIViewController _setViewAppearState:isAnimating:]:(null)">
+      </ContextState>
+      <ContextState
+         contextName = "-[GameScene didMoveToView:]:GameScene.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "shutDownSprite.frame.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GameScene imageWithView:]:GameScene.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GameViewController viewDidLoad]:GameViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "scene.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

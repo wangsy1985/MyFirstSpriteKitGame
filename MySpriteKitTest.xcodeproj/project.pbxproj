@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B6D0858196FBCE000E1518A /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6B6D0856196FBCE000E1518A /* background-music-aac.caf */; };
+		6B6D0859196FBCE000E1518A /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6B6D0857196FBCE000E1518A /* pew-pew-lei.caf */; };
+		6B6D085E196FC15300E1518A /* ResultScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6D085D196FC15300E1518A /* ResultScene.m */; };
 		6BA5B193196CDA02003646BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5B192196CDA02003646BE /* main.m */; };
 		6BA5B196196CDA02003646BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5B195196CDA02003646BE /* AppDelegate.m */; };
 		6BA5B199196CDA02003646BE /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5B198196CDA02003646BE /* GameScene.m */; };
@@ -15,6 +18,7 @@
 		6BA5B1A1196CDA02003646BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA5B19F196CDA02003646BE /* Main.storyboard */; };
 		6BA5B1A3196CDA02003646BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA5B1A2196CDA02003646BE /* Images.xcassets */; };
 		6BA5B1AF196CDA02003646BE /* MySpriteKitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5B1AE196CDA02003646BE /* MySpriteKitTestTests.m */; };
+		6BE5F655196FE67500AECCCA /* AGSpriteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE5F654196FE67500AECCCA /* AGSpriteButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B6D0856196FBCE000E1518A /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		6B6D0857196FBCE000E1518A /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		6B6D085C196FC15300E1518A /* ResultScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultScene.h; sourceTree = "<group>"; };
+		6B6D085D196FC15300E1518A /* ResultScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultScene.m; sourceTree = "<group>"; };
 		6BA5B18D196CDA02003646BE /* MySpriteKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySpriteKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA5B191196CDA02003646BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BA5B192196CDA02003646BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +51,8 @@
 		6BA5B1A8196CDA02003646BE /* MySpriteKitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySpriteKitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA5B1AD196CDA02003646BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BA5B1AE196CDA02003646BE /* MySpriteKitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpriteKitTestTests.m; sourceTree = "<group>"; };
+		6BE5F653196FE67500AECCCA /* AGSpriteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSpriteButton.h; sourceTree = "<group>"; };
+		6BE5F654196FE67500AECCCA /* AGSpriteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSpriteButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B6D0855196FBCE000E1518A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6B6D0856196FBCE000E1518A /* background-music-aac.caf */,
+				6B6D0857196FBCE000E1518A /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		6BA5B184196CDA02003646BE = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +103,8 @@
 		6BA5B18F196CDA02003646BE /* MySpriteKitTest */ = {
 			isa = PBXGroup;
 			children = (
+				6BE5F653196FE67500AECCCA /* AGSpriteButton.h */,
+				6BE5F654196FE67500AECCCA /* AGSpriteButton.m */,
 				6BA5B194196CDA02003646BE /* AppDelegate.h */,
 				6BA5B195196CDA02003646BE /* AppDelegate.m */,
 				6BA5B197196CDA02003646BE /* GameScene.h */,
@@ -91,8 +112,11 @@
 				6BA5B19A196CDA02003646BE /* GameScene.sks */,
 				6BA5B19C196CDA02003646BE /* GameViewController.h */,
 				6BA5B19D196CDA02003646BE /* GameViewController.m */,
-				6BA5B19F196CDA02003646BE /* Main.storyboard */,
 				6BA5B1A2196CDA02003646BE /* Images.xcassets */,
+				6BA5B19F196CDA02003646BE /* Main.storyboard */,
+				6B6D085C196FC15300E1518A /* ResultScene.h */,
+				6B6D085D196FC15300E1518A /* ResultScene.m */,
+				6B6D0855196FBCE000E1518A /* Sounds */,
 				6BA5B190196CDA02003646BE /* Supporting Files */,
 			);
 			path = MySpriteKitTest;
@@ -204,8 +228,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B6D0858196FBCE000E1518A /* background-music-aac.caf in Resources */,
 				6BA5B1A3196CDA02003646BE /* Images.xcassets in Resources */,
 				6BA5B19B196CDA02003646BE /* GameScene.sks in Resources */,
+				6B6D0859196FBCE000E1518A /* pew-pew-lei.caf in Resources */,
 				6BA5B1A1196CDA02003646BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,8 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BA5B19E196CDA02003646BE /* GameViewController.m in Sources */,
+				6B6D085E196FC15300E1518A /* ResultScene.m in Sources */,
 				6BA5B196196CDA02003646BE /* AppDelegate.m in Sources */,
 				6BA5B199196CDA02003646BE /* GameScene.m in Sources */,
+				6BE5F655196FE67500AECCCA /* AGSpriteButton.m in Sources */,
 				6BA5B193196CDA02003646BE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +442,7 @@
 				6BA5B1B4196CDA02003646BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BA5B1B5196CDA02003646BE /* Build configuration list for PBXNativeTarget "MySpriteKitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +451,7 @@
 				6BA5B1B7196CDA02003646BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -30,6 +30,7 @@
 
 @implementation GameViewController
 
+#if true
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -43,11 +44,29 @@
     
     // Create and configure the scene.
     GameScene *scene = [GameScene unarchiveFromFile:@"GameScene"];
+    
+    scene.size = skView.bounds.size;
+
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.
     [skView presentScene:scene];
 }
+#else
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    SKView * skView = (SKView *)self.view;
+    skView.showsFPS = YES;
+    skView.showsNodeCount = YES;
+    
+    SKScene * scene = [GameScene sceneWithSize:skView.bounds.size];
+    scene.scaleMode = SKSceneScaleModeAspectFill;
+    
+    [skView presentScene:scene];
+}
+#endif
 
 - (BOOL)shouldAutorotate
 {
